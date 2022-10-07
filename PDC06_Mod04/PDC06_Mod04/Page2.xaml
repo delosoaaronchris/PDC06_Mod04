@@ -36,17 +36,6 @@
                 </Frame.GestureRecognizers>                
             </Frame>
 
-            <Frame CornerRadius="50" Margin="5">
-                <Frame.GestureRecognizers>
-                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
-                </Frame.GestureRecognizers>
-            </Frame>
-
-            <Frame CornerRadius="50" Margin="5">
-                <Frame.GestureRecognizers>
-                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
-                </Frame.GestureRecognizers>
-            </Frame>
 
 
         </StackLayout>
