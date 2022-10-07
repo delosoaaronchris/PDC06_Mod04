@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC06_Mod04.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to PDC60 Module 04" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button Text="Page 1" Clicked="Open_Page1" CornerRadius="50" Margin="5" FontSize="Large" FontAttributes="bold"/>
+        <Button Text="Page 2" Clicked="Open_Page2" CornerRadius="50" Margin="5" FontSize="Large" FontAttributes="bold"/>
+
+    </StackLayout>
+
+</ContentPage>

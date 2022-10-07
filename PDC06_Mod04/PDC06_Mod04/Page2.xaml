@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC06_Mod04.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Aqua" CornerRadius="50" Margin="5">
+                <Label Text="Shade" HorizontalTextAlignment="Center" VerticalOptions="Center" 
+                       TextColor="Blue" FontSize="32">
+                    <Label.GestureRecognizers>
+                        <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_Drag"/>
+                    </Label.GestureRecognizers>
+                </Label>                
+            </Frame>
+            <Frame BackgroundColor="LightCyan" CornerRadius="50" Margin="5">
+                <Label Text="Shadow" HorizontalTextAlignment="Center" VerticalOptions="Center" 
+                       TextColor="Blue" FontSize="32">
+                    <Label.GestureRecognizers>
+                        <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_Drag"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+
+            <Frame BackgroundColor="LightGreen"  CornerRadius="50" Margin="5">
+                <Label Text="Horizon" HorizontalTextAlignment="Center" VerticalOptions="Center" 
+                       TextColor="Blue" FontSize="32">
+                    <Label.GestureRecognizers>
+                        <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_Drag"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+            
+            <Frame CornerRadius="50" Margin="5">
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+                </Frame.GestureRecognizers>                
+            </Frame>
+
+            <Frame CornerRadius="50" Margin="5">
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame CornerRadius="50" Margin="5">
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
